@@ -11,11 +11,20 @@ environment:
 
 dependencies:
   jaguar_orm:
-    path: ../
+    git:
+      url: "git://github.com/HTMHell/jaguar_orm.git"
+      ref: "legacyV3"
+      path: "orm"
   jaguar_query_postgres:
-    path: ../../postgres
+    git:
+      url: "git://github.com/HTMHell/jaguar_orm.git"
+      ref: "legacyV3"
+      path: "postgres"
 
 dev_dependencies:
   build_runner:
   jaguar_orm_gen:
-    path: ../../generator
+    git:
+      url: "git://github.com/HTMHell/jaguar_orm.git"
+      ref: "legacyV3"
+      path: "generator"

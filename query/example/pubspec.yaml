@@ -12,8 +12,14 @@ environment:
 
 dependencies:
   jaguar_query:
-    path: ../
+    git:
+      url: "git://github.com/HTMHell/jaguar_orm.git"
+      ref: "legacyV3"
+      path: "query"
 
 dev_dependencies:
   jaguar_query_postgres:
-    path: ../../postgres
+    git:
+      url: "git://github.com/HTMHell/jaguar_orm.git"
+      ref: "legacyV3"
+      path: "postgres"

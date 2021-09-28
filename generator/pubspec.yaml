@@ -12,9 +12,15 @@ environment:
 
 dependencies:
   jaguar_query: #^2.2.9
-    path: ../query
+    git:
+      url: "git://github.com/HTMHell/jaguar_orm.git"
+      ref: "legacyV3"
+      path: "query"
   jaguar_orm: #^2.2.7
-    path: ../orm
+    git:
+      url: "git://github.com/HTMHell/jaguar_orm.git"
+      ref: "legacyV3"
+      path: "orm"
   analyzer: ^1.5.0
   build: ^2.0.1
   logging: ^1.0.1
@@ -24,9 +30,15 @@ dependencies:
 
 dependency_overrides:
   jaguar_orm:
-    path: ../orm
+    git:
+      url: "git://github.com/HTMHell/jaguar_orm.git"
+      ref: "legacyV3"
+      path: "orm"
   jaguar_query:
-    path: ../query
+    git:
+      url: "git://github.com/HTMHell/jaguar_orm.git"
+      ref: "legacyV3"
+      path: "query"
 
 dev_dependencies:
   test: ^1.17.1

@@ -17,7 +17,10 @@ dependencies:
   flutter:
     sdk: flutter
   jaguar_query_sqflite:
-    path: ../
+    git:
+      url: "git://github.com/HTMHell/jaguar_orm.git"
+      ref: "legacyV3"
+      path: "sqflite"
 
 dev_dependencies:
   flutter_test:

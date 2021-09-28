@@ -12,7 +12,10 @@ environment:
 
 dependencies:
   jaguar_query: #^2.2.9
-    path: ../query
+    git:
+      url: "git://github.com/HTMHell/jaguar_orm.git"
+      ref: "legacyV3"
+      path: "query"
   postgres: ^2.3.2
   path: ^1.8.0
 

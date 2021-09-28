@@ -18,7 +18,10 @@ dependencies:
     sdk: flutter
   sqflite: 2.0.0+3
   jaguar_query: #^2.2.9
-    path: ../query
+    git:
+      url: "git://github.com/HTMHell/jaguar_orm.git"
+      ref: "legacyV3"
+      path: "query"
 
 dev_dependencies:
   flutter_test:
@@ -26,4 +29,7 @@ dev_dependencies:
 
 dependency_overrides:
   jaguar_query:
-    path: ../query
+    git:
+      url: "git://github.com/HTMHell/jaguar_orm.git"
+      ref: "legacyV3"
+      path: "query"
